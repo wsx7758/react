@@ -176,6 +176,7 @@ class Others extends Component{
             }
         })
         .then((res)=>{
+            console.log(res)
             this.setState({
                 GoodsList:res.data.data.goods_list,
                 total:res.data.data.total

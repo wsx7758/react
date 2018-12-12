@@ -57,7 +57,7 @@ class Index extends Component{
                 <Header />
                 <Mallnav />
                 <Switch>
-                    <Route path="/mall/:id" component={id===0|undefined?Mallhome:Others} /> 
+                    <Route path="/mall/:id" component={id==0|undefined?Mallhome:Others} /> 
                     {/* <Redirect from="/mall" to='/mall/:id=0' /> */}
                 </Switch>
                 <Backtop display={this.state.display}/>
