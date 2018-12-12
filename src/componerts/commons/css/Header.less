@@ -1,0 +1,45 @@
+@import './mixin.less';
+.header{
+    position: fixed;
+    .t(0);
+    .l(0);
+    z-index: 1000;
+    .top{
+        .h(44);
+        .w(375);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        // background-color: rgba(0, 0, 0, 0);
+        .left{
+            background: #fff;
+            background-color: hsla(0,0%,100%,.25);
+            .w(303);
+            .h(30);
+            .p(0,0,0,10);
+            display: flex;
+            align-items: center;
+            .logo{
+                .w(13);
+                .h(13);
+                background: red;
+                .bgimg('../../../img/sc.png');
+                background-size:100%; 
+            }
+            .logob{
+                .m(0,0,0,10);
+                .w(75);
+                .h(12);
+                .bgimg('../../../img/logo.png');
+                background-size:100%;
+            }
+        }
+        .right{
+            .w(22);
+            .h(22);
+            .bgimg('../../../img/shopping.png');
+            background-size:100%;
+        }
+    }
+
+}

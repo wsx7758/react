@@ -1,0 +1,61 @@
+@import '../../../../commons/css/mixin.less';
+.advertisement{
+    .fs(14);
+    position: relative;
+    .swiper-container{
+
+        .swiper-wrapper{
+
+            .swiper-slide{
+                .wim(375);
+                .h(212);
+                // position: relative;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+                h3{
+                    position: absolute;
+                    .b(20);
+                    .l(0);
+                    width: 100%;
+                    text-align: center;
+                    color: #fff;
+                    .fs(24);
+                }
+            }
+        }
+    }
+    .son_scroll{
+        .mt(10);
+        ul{
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            li{
+                
+                position: relative;
+                img{
+                    .w(121);
+                    .h(121);
+                }
+                p{
+                    position: absolute;
+                    .b(5);
+                    .l(0);
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .allstores{
+        display: inline-block;
+        .h(24);
+        .lh(24);
+        .p(0,8,0,8);
+        .m(10,0,20,0);
+        color:#fff;
+        background: #000;
+        border-radius:5px 
+    }
+}

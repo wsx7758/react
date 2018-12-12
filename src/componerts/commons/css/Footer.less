@@ -1,0 +1,34 @@
+@import './mixin.less';
+.footer{
+    position: fixed;
+    .b(0);
+    .l(0);
+    z-index: 1000;
+    overflow: hidden;
+    ul{
+        display: flex;
+        .w(375);
+        .h(48);
+        background: black;
+        
+        
+        li{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 20%;
+            .h(48);
+            .fs(25);
+            .lh{
+                color: white;
+            }
+            a{
+                color: #7e8c8d;
+            }
+            div{
+                .fs(12);
+            }
+        }
+    }
+}

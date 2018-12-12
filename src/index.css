@@ -1,0 +1,25 @@
+body {
+  font-family: \\9ED1\4F53;
+  margin: 0;
+  padding: 0;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+/* html,body,#root,.App,.home{
+  height: 100%;
+}
+.App div{
+  overflow: hidden;
+} */

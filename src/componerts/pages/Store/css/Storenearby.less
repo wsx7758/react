@@ -1,0 +1,46 @@
+@import '../../../commons/css/mixin.less';
+.nearhead{
+    position: fixed;
+    .w(375);
+    .h(44);
+    .t(0);
+    .l(0);
+    .fs(16);
+    text-align: center;
+    .lh(44);
+    background: white;
+    z-index: 2;
+    .headleft{
+        position: absolute;
+        .l(10);
+        .t(12);
+        .w(22);
+        .h(22);
+        .bgimg('../../../img/return.png');
+        background-size: 100%; 
+    }
+    .headright{
+        position: absolute;
+        .r(15);
+        .t(5);
+        .nearsc{
+            display: inline-block;
+            .w(22);
+            .h(22);
+            .bgimg('../../../img/scb.png');
+            background-size: 100%;
+            .m(0,15,0,0);
+        }
+        .nearbag{
+            display: inline-block;
+            .w(22);
+            .h(22);
+            .bgimg('../../../img/bag.png');
+            background-size: 100%;
+        }
+    }
+    
+}
+.list{
+    .m(44,0,0,0);
+}

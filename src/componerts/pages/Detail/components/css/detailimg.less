@@ -1,0 +1,42 @@
+@import '../../../../commons/css/mixin.less';
+.detailrecommend{
+    text-align: center;
+    .detailrecommendnav{
+        color: #ccc;
+        .h(44);
+        border-bottom:1px solid #ccc;
+        display: flex;
+        justify-content: space-between;
+        div{
+            flex: 1;
+            .lh(44);
+        }
+        .colorblack{
+            color: #000;
+        }
+    }
+    ul{
+        background: white;
+        overflow: hidden;
+        li{
+            float: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            color: #333;
+            .fs(12);
+            img{
+                width: 100%;
+                height: auto;
+            }
+            div{
+                .pt(10);
+            }
+            p{
+                .pt(10);
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+@import '../../../../commons/css/mixin.less';
+.mallnav{
+    ::-webkit-scrollbar {
+        display: none;
+      }
+      .fs(14);
+      .mallnav-con{
+        position: fixed;
+        .t(44);
+        .w(375);
+        .l(0);
+        // .h(42);
+        overflow: auto;
+        z-index: 5;
+        ul{
+            .w(650);
+            background: white;
+            overflow: hidden;
+            // white-space:nowrap;
+            color: #999;
+            border-bottom:1px solid #999; 
+            li{
+                float: left;
+                .m(0,10,0,10);
+                .lh(40);
+                .fs(15);
+            } 
+            .border{
+                border-bottom:2px solid #000; 
+                color: skyblue;
+            }
+        }    
+      }
+   
+}

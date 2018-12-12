@@ -1,0 +1,89 @@
+@import '../../../../commons/css/mixin.less';
+
+.conUl{
+    li{
+        .w(357);
+        .p(20,0,21,0);
+        border-bottom:1px solid #ddd; 
+        margin: 0 auto;
+    }
+}
+
+.storeLogo{
+    .w(357);
+    .h(357);
+    position: relative;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .like{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        .t(20);
+        .r(15);
+        color: #fff;
+        .likeLogo{
+            display: block;
+            .m(0,6,0,0);
+            .w(21);
+            .h(19);
+            .bgimg('../../../img/likelogo.png');
+            background-size:100%; 
+        }
+    }
+}
+.storedetails{
+    .p(0,35,0,10);
+    .storeName{
+        .h(40);
+        .fs(18);
+        text-align: left;
+        color: #000;
+        .lh(41);
+    }
+    .storeType{
+        color: #999;
+        .fs(15);
+        display: flex;
+        align-items: center;
+        .type-l{
+            .m(0,8,0,0);
+            display: inline-block;
+            .w(33);
+            .h(18);
+            color: #fff;
+            background: #9b885f;
+            .fs(11);
+            .lh(18);
+            text-align: center;
+        }
+        .store_desc{
+            display: inline-block;
+            .w(320);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow:ellipsis;
+        }
+    }
+    .storeLoc{
+        .m(15,0,0,0);
+        display: flex;
+        justify-content: space-between;
+        div{
+            display: flex;
+            align-items: center;
+            .loclogo{
+                .m(0,6,0,0);
+                .w(11);
+                .h(15);
+                .bgimg('../../../img/loclogo.png');
+                background-size:100%; 
+            }
+            .locgps{
+                color: #9b885f;
+            }
+        }
+    }
+}

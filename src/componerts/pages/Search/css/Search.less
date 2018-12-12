@@ -1,0 +1,110 @@
+@import '../../../commons/css/mixin.less';
+.search{
+    .fs(15);
+    .seahead{
+        position: fixed;
+        .t(0);
+        .l(0);
+        .h(44);
+        .w(375);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: white;
+        z-index: 1;
+        .search_bd{
+            .w(314);
+            .h(32);
+            background: #f2f2f2;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            border-radius: 5px;
+            .fs(16); 
+            span{
+                display: block;
+                .m(0,10,0,10);
+                .w(13);
+                .h(13);
+                .bgimg('../../../img/scarch.png');
+                background-size:100%; 
+            }
+            input{
+                height: 99%;
+                outline: none;
+                border: none;
+                .w(280);
+                background: #f2f2f2;
+                color: #999;
+            }
+        }
+    }
+    .seacon{
+        .mt(44);
+        // .p(0,15,0,15);
+        text-align: left;
+        .hot{
+            .h(40);
+            .lh(40);
+        }
+        .hotlist{
+            ul{
+                .w(375);
+                .p(10,15,0,15); 
+                overflow: hidden;
+                background: white;
+                color: #666;
+                li{
+                    float: left;
+                    .lh(30);
+                    .p(0,10,0,10);
+                    border: 1px solid #e5e5e5;
+                    .m(0,10,10,0);
+                }
+            }
+        }
+        .searchRec{
+            .h(40);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:  #999;
+            span{
+                display: block;
+                .w(20);
+                .h(1);
+                background:  #999;
+            }
+        }
+        .searchrec_con{
+            ul{
+                .w(375);
+                background: white;
+                overflow: hidden;
+                li{
+                    float: left;
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                    .fs(13);
+                    .h(200);
+                    img{
+                        .w(145);
+                        .h(145);
+                    }
+                    p{
+                        width: 80%;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                    }
+                    div{
+                       color: #999; 
+                    }
+                }
+            }
+        }
+    }
+}

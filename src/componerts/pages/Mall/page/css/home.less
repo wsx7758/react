@@ -1,0 +1,238 @@
+@import '../../../../commons/css/mixin.less';
+.mallhome{
+    ::-webkit-scrollbar {
+        display: none;
+      }
+      .fs(14);
+    .mallcon{
+        .mt(86);
+        .p(0,0,50,0);
+        .mallcon-banner{
+            .swiper-slide{
+                .w(375);
+                .h(280);
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .fun_nav{
+
+            ul{
+                background: #fff;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                li{
+                    .w(75);
+                    .h(80);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    div{
+                        .w(30);
+                        .h(30);
+                        background-size:100%; 
+                        .mb(10);
+                    }
+                }
+            }
+        }
+        .mallBuyAll{
+            border-top:1px solid #999;
+            .fs(15);
+            .mallBanners{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                h4{
+                    .pt(5);
+                }
+                .en_name{
+                    display: flex;
+                    align-items: center;
+                    span{
+                        display: block;
+                        .w(20);
+                        .h(1);
+                        background: #000;
+                    }
+                }
+                .adv_fir{
+                    color:#fff;
+                    position: relative;
+                    overflow: hidden;
+                    .fashion_guide{
+
+                        .fashion_guidename{
+                            overflow: hidden;
+                            img{
+                                .w(375);
+                                .h(211);
+                            }
+                            div{
+                                overflow: auto;
+                                .w(375);
+                                ul{
+                                    
+                                    display: flex;
+                                    // .w(1100);
+                                    li{
+                                        .p(0,10,0,10);
+                                        .w(110);
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        background: #fff;
+                                        color: #000;
+                                        img{
+                                            .w(73);
+                                            .h(110);
+                                        }
+                                        p{
+                                            width: 100%;
+                                            text-overflow: ellipsis;
+                                            overflow: hidden;
+                                            white-space: nowrap;
+                                            text-align: left;
+                                            .fs(14);
+                                        }
+                                        span{
+                                            color: #999;
+                                        }
+                                    }
+                                    .showAll{
+                                        img{
+                                            .h(80);
+                                            border: 1px solid #999;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .top5flag{
+                        .top5flagname{
+                            position: relative;
+                            .mb(8);
+                            div{
+                                position: absolute;
+                                .l(165);
+                                .t(85);
+                                .w(60);
+                                .h(60);
+                                background: #fff;
+                                border-radius:50%; 
+                                img{
+                                    .w(53);
+                                    .h(30);
+                                    .mt(14);
+                                }
+                            }
+                            img{
+                                .w(375);
+                                .h(225)
+                            }
+                            span{
+                                display: block;
+                                position: absolute;
+                                .b(0);
+                                .l(0);
+                                .w(375);
+                                .pt(36);
+                                .pb(10);
+                                background: -webkit-gradient(linear,0 0,0 bottom,from(transparent),to(rgba(0,0,0,.7)));
+                            }
+                        }
+                    }
+                    .new_recommend{
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                       
+                        .w(375);
+                        div{ position: relative;}
+                        .new_recommendname{
+                            position: absolute;
+                            display: block;
+                            .b(0);
+                            .l(0);
+                            .w(144);
+                            .p(36,20,10,20);
+                            background: -webkit-gradient(linear,0 0,0 bottom,from(transparent),to(rgba(0,0,0,.7)));
+                        }
+                        img{
+                            .w(184);
+                            .h(246);
+                        }
+                    }
+                    .imgone{
+                        .w(375);
+                        .h(214);
+                        .mt(8);
+                    }
+                    .en_nameP{
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        .pt(36);
+                        .pb(10);
+                        width: 100%;
+                        font-size: 24px;
+                        background: -webkit-gradient(linear,0 0,0 bottom,from(transparent),to(rgba(0,0,0,.7)));
+                    }
+                    .big-img{
+                        position: relative;
+                        .mt(8);
+                        img{
+                            .w(375);
+                            .h(463);
+                        }
+                        h5{
+                            position: absolute;
+                            .t(135);
+                            .l(5);
+                            .pt(40);
+                            .fs(23);
+                            .w(375);
+                            .h(30);
+                            background: -webkit-gradient(linear,0 0,0 bottom,from(transparent),to(rgba(0,0,0,.7)));
+                        }
+                    }
+
+                    .adv_firul{
+                        overflow: hidden;
+                        position: absolute;
+                        .t(220);
+                        .l(0);
+                        .w(375);
+                        display: flex;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+                        li{
+                            position: relative;
+                            img{
+                                .w(184);
+                                .h(228);
+                            }
+                            h6{
+                                position: absolute;
+                                .b(0);
+                                .w(144);
+                                .p(36,20,10,20);
+                                text-align: center;
+                                .fs(18);
+                                background: -webkit-gradient(linear,0 0,0 bottom,from(transparent),to(rgba(0,0,0,.7)));
+                            }
+                        }
+                    }
+                }
+            } 
+        }
+    }
+}
